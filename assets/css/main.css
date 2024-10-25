@@ -1,0 +1,187 @@
+
+html {
+    overflow-x: hidden;
+}
+
+.head-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212529;
+    padding: 0 5rem;
+    height: 12vh;
+    width: 100vw;
+}
+
+.head-top i {
+    color: white;
+}
+
+
+.head-top .logo img {
+    width: 200px; 
+    height: auto; 
+}
+
+.social-links ul {
+    display: flex;
+}
+
+.social-links ul li {
+    padding: 0 1rem;
+}
+
+.links {
+    background-color: #ef3334;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5.2rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.links ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links ul li {
+    padding: 0 1rem;
+
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 4px;
+}
+
+.search input, 
+button {
+    outline: none;
+    border: 0;
+}
+
+.search input {
+    padding: .5rem .3rem;
+    border-radius: 3px 0 0 3px;
+}
+
+.search button {
+    padding: .5rem .3rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+}
+
+.home_section {
+    width: 100vw;
+    height: calc(100vh - 12vh - 5.2rem);
+    background: url("../imagens/fundo1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home_section h1 {
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    color: white;
+}
+
+.home_section ul {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 20px;
+}
+
+.home_section ul li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: blue;
+    border: 4px solid white;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#about .sobre_nos {
+    margin-top: 20px;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.sobre_nos__text {
+    line-height: 22px;
+    padding: .5rem 15rem 0 .5rem;
+    align-self: center;
+   
+}
+
+.sobre_nos__text h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.sobre_nos__text h1 + p {
+    margin-bottom: 10px;
+
+}
+
+.btn {
+    background-color: #ef3334;
+    text-transform: uppercase;
+    padding: .4rem;
+    border-radius: 4px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.foto img {
+    filter: contrast(1.5);
+}
+
+.container_about {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100vw;
+    height: 40vh;
+}
+
+.container_about__item {
+    width: calc(100vw / 3 - 8rem);
+    height: 30vh;
+    text-align: center;
+    border-radius: 4px;
+    background-color: white;
+    padding: .5rem 1rem  0;
+}
